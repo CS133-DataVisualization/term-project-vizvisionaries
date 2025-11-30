@@ -126,21 +126,6 @@ open interactive_dashboard.html   # macOS
 start interactive_dashboard.html  # Windows
 ```
 
----
-
-# 📁 Project Structure
-
-```
-📦 term-project-vizvisionaries
- ┣ 📂 Project Assignments
- │   ┣ 📜 final.ipynb          # Main notebook with EDA + ML + Dashboard
- │   ┗ 📜 interactive_dashboard.html (optional export)
- ┣ 📜 requirements.txt
- ┗ 📜 README.md
-```
-
----
-
 # 🧠 **Modeling Summary**
 
 We trained and compared:
@@ -166,12 +151,4 @@ LendingClub Loan Data — [https://www.kaggle.com/datasets/wordsforthewise/lendi
 Course: **CS133 — Data Visualization**
 Team: Diya Doshi, Athish Kumar, Fnu Hasham
 
----
-
-If you'd like, I can also generate:
-
-✅ A polished “Project Summary” section
-✅ A “Results & Findings” markdown section for the README
-✅ A short description for your GitHub repo
-
-Just tell me!
+-
