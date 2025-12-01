@@ -1,4 +1,4 @@
-# 📄 **Lending Club Loan Default Prediction Project**
+# **Lending Club Loan Default Prediction Project**
 
 ## Overview
 
