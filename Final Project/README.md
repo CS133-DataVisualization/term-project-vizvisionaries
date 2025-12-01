@@ -1,6 +1,6 @@
-# 📄 **README.md — Lending Club Loan Default Prediction Project**
+# 📄 **Lending Club Loan Default Prediction Project**
 
-## 📌 Overview
+## Overview
 
 This project analyzes the **LendingClub** loan dataset to identify factors associated with loan default and build machine learning models that predict the likelihood of loan default.
 The project includes:
@@ -17,7 +17,7 @@ The final goal is to understand what borrower and loan characteristics drive def
 
 ---
 
-# 🖥️ **Environment Setup**
+# **Environment Setup**
 
 To ensure reproducibility, follow these steps to create a Python virtual environment and install all dependencies.
 
@@ -67,7 +67,7 @@ source .venv/bin/activate
 
 ---
 
-# 📚 **3. Install Required Libraries**
+# **3. Install Required Libraries**
 
 Install all dependencies:
 
@@ -80,7 +80,7 @@ python-dateutil
 
 ---
 
-# ▶️ **4. Running the Notebook**
+# **4. Running the Notebook**
 
 To launch the notebook environment:
 
@@ -98,7 +98,7 @@ and run all cells in order.
 
 ---
 
-# 📊 **5. Running the Interactive Dashboard**
+# **5. Running the Interactive Dashboard**
 
 The interactive Plotly dashboard is generated inside the notebook.
 It does **not** require a separate server — it runs inside Jupyter automatically.
@@ -126,7 +126,7 @@ open interactive_dashboard.html   # macOS
 start interactive_dashboard.html  # Windows
 ```
 
-# 🧠 **Modeling Summary**
+# **Modeling Summary**
 
 We trained and compared:
 
@@ -144,7 +144,7 @@ This model was selected as the final classifier.
 
 ---
 
-# 🙌 Credits
+# References
 
 Dataset:
 LendingClub Loan Data — [https://www.kaggle.com/datasets/wordsforthewise/lending-club](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
