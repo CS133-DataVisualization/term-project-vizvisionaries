@@ -146,9 +146,12 @@ This model was selected as the final classifier.
 
 # References
 
-Dataset:
 LendingClub Loan Data — [https://www.kaggle.com/datasets/wordsforthewise/lending-club](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+Preprocess Lending Club Data: https://github.com/nateGeorge/preprocess_lending_club_data
+EDA notebook on Kaggle: https://www.kaggle.com/wordsforthewise/eda-with-python
+Sci-kit Learn Documentation for ML model selection: https://scikit-learn.org/stable/
+
 Course: **CS133 — Data Visualization**
 Team: Diya Doshi, Athish Kumar, Fnu Hasham
 
--
+
