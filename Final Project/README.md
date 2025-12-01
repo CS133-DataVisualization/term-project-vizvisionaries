@@ -1,6 +1,6 @@
-# 📄 **README.md — Lending Club Loan Default Prediction Project**
+# **Lending Club Loan Default Prediction Project**
 
-## 📌 Overview
+## Overview
 
 This project analyzes the **LendingClub** loan dataset to identify factors associated with loan default and build machine learning models that predict the likelihood of loan default.
 The project includes:
@@ -17,7 +17,7 @@ The final goal is to understand what borrower and loan characteristics drive def
 
 ---
 
-# 🖥️ **Environment Setup**
+# **Environment Setup**
 
 To ensure reproducibility, follow these steps to create a Python virtual environment and install all dependencies.
 
@@ -67,7 +67,7 @@ source .venv/bin/activate
 
 ---
 
-# 📚 **3. Install Required Libraries**
+# **3. Install Required Libraries**
 
 Install all dependencies:
 
@@ -80,7 +80,7 @@ python-dateutil
 
 ---
 
-# ▶️ **4. Running the Notebook**
+# **4. Running the Notebook**
 
 To launch the notebook environment:
 
@@ -91,64 +91,21 @@ jupyter notebook
 Open:
 
 ```
-Project Assignments/final.ipynb
+Final Project/final.ipynb
 ```
 
 and run all cells in order.
 
 ---
 
-# 📊 **5. Running the Interactive Dashboard**
+# References
 
-The interactive Plotly dashboard is generated inside the notebook.
-It does **not** require a separate server — it runs inside Jupyter automatically.
-
-To view the interactive chart:
-
-1. Open the notebook (`final.ipynb`)
-2. Run the **Interactive Component** cell:
-
-   ```python
-   fig.show()
-   ```
-3. The dropdown histogram visualization appears in your browser.
-
-If you want to export it manually:
-
-```python
-fig.write_html("interactive_dashboard.html")
-```
-
-Then open the file:
-
-```bash
-open interactive_dashboard.html   # macOS
-start interactive_dashboard.html  # Windows
-```
-
-# 🧠 **Modeling Summary**
-
-We trained and compared:
-
-* Logistic Regression
-* Random Forest
-* Tuned XGBoost
-
-After removing leakage features and applying preprocessing, **XGBoost** achieved:
-
-* **Accuracy:** 0.928
-* **AUC:** 0.966
-* Strong balance between precision/recall
-
-This model was selected as the final classifier.
-
----
-
-# 🙌 Credits
-
-Dataset:
 LendingClub Loan Data — [https://www.kaggle.com/datasets/wordsforthewise/lending-club](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+Preprocess Lending Club Data: https://github.com/nateGeorge/preprocess_lending_club_data
+EDA notebook on Kaggle: https://www.kaggle.com/wordsforthewise/eda-with-python
+Sci-kit Learn Documentation for ML model selection: https://scikit-learn.org/stable/
+
 Course: **CS133 — Data Visualization**
 Team: Diya Doshi, Athish Kumar, Fnu Hasham
 
--
+
