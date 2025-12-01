@@ -91,56 +91,10 @@ jupyter notebook
 Open:
 
 ```
-Project Assignments/final.ipynb
+Final Project/final.ipynb
 ```
 
 and run all cells in order.
-
----
-
-# **5. Running the Interactive Dashboard**
-
-The interactive Plotly dashboard is generated inside the notebook.
-It does **not** require a separate server — it runs inside Jupyter automatically.
-
-To view the interactive chart:
-
-1. Open the notebook (`final.ipynb`)
-2. Run the **Interactive Component** cell:
-
-   ```python
-   fig.show()
-   ```
-3. The dropdown histogram visualization appears in your browser.
-
-If you want to export it manually:
-
-```python
-fig.write_html("interactive_dashboard.html")
-```
-
-Then open the file:
-
-```bash
-open interactive_dashboard.html   # macOS
-start interactive_dashboard.html  # Windows
-```
-
-# **Modeling Summary**
-
-We trained and compared:
-
-* Logistic Regression
-* Random Forest
-* Tuned XGBoost
-
-After removing leakage features and applying preprocessing, **XGBoost** achieved:
-
-* **Accuracy:** 0.928
-* **AUC:** 0.966
-* Strong balance between precision/recall
-
-This model was selected as the final classifier.
 
 ---
 
